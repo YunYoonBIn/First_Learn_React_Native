@@ -8,6 +8,7 @@ export default function App() {
     <View
       style={{
         flex: 1,
+
         backgroundColor: "#fff",
         alignItems: "center",
         justifyContent: "center",
@@ -16,7 +17,7 @@ export default function App() {
       <Text style={{ fontSize: 30, marginBottom: 10 }}>props Btn</Text>
 
  
-
+     omp
       <MyButton title="Button" />
       <MyButton>Children Props</MyButton>
       <MyButton/>
