@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>
+      <Text style={[styles.text, {color: "green"}]}>
        Class Styleng - text</Text>
        <Text style={[styles.text, styles.error]}>
        Class Styleng - error
