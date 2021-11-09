@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.text}>
        Class Styleng - text</Text>
-       <Text style={styles.text, styles.error}>
+       <Text style={[styles.text, styles.error]}>
        Class Styleng - error
        </Text>
     </View>
